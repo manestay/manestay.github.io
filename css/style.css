@@ -605,7 +605,7 @@ body {
   letter-spacing: 0.01em;
   font-weight: 200;
   font-style: normal;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 #header #nav ul {
   margin: 0;
@@ -640,9 +640,9 @@ body {
 #header #nav ul li:last-child a {
   margin-right: 0;
 }
-#header:hover #logo {
-  filter: none;
-  -webkit-filter: none;
+#header #nav-icon {
+  font-size: 1.1rem;
+  padding-right: 0.6rem;
 }
 @media screen and (max-width: 480px) {
   #header #title {
@@ -654,6 +654,9 @@ body {
     display: table-cell;
     vertical-align: middle;
   }
+  #header #nav ul {
+    padding-top: 1rem;
+  }
   #header #nav ul a:hover {
     background: none;
   }
@@ -663,22 +666,26 @@ body {
   }
   #header #nav ul li.icon {
     position: absolute;
-    top: 77px;
-    right: 1rem;
+    top: 17.6rem;
+    left: 0.2rem;
     display: inline-block;
   }
   #header #nav ul.responsive li {
-    display: block;
+    display: inline-block;
   }
   #header #nav li:not(:first-child) {
-    padding-top: 1rem;
-    padding-left: 270px;
+    padding-left: 0;
     font-size: 1rem;
+    margin-right: 15px;
+    border-right: 1px dotted;
+    border-color: #2bbc8a;
+    vertical-align: middle;
   }
-}
-#nav-icon {
-  font-size: 1rem;
-  padding-right: 0.6rem;
+  #header #nav #nav-icon {
+    font-size: 1.5rem;
+    padding-top: 0.75rem;
+    padding-right: 0.9rem;
+  }
 }
 #header-post {
   position: fixed;
