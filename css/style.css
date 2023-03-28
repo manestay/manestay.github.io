@@ -451,6 +451,29 @@ body p {
 *:after {
   box-sizing: border-box;
 }
+/* Scroll bar */
+/* For Firefox */
+* {
+  scrollbar-color: #aaa transparent;
+}
+/* For Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 6px;
+}
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #aaa;
+  border-radius: 6px;
+}
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #888;
+}
+*::-webkit-scrollbar-thumb:active {
+  background-color: #777;
+}
 html {
   margin: 0;
   padding: 0;
@@ -1106,7 +1129,6 @@ article .content h2:before {
   top: -4px;
   left: -1rem;
   color: #2bbc8a;
-  content: "#";
   font-weight: bold;
   font-size: 1.2rem;
 }
