@@ -581,7 +581,7 @@ body {
   }
 }
 .max-width {
-  max-width: 48rem;
+  max-width: 56rem;
 }
 @media (max-width: 480px) {
   .px3 {
@@ -624,10 +624,10 @@ body {
   display: inline-block;
   float: right;
   margin-right: 20px;
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   border-radius: 5px;
-  background-size: 250px 250px;
+  background-size: 300px 300px;
   background-repeat: no-repeat;
 }
 #header #nav {
@@ -679,7 +679,7 @@ body {
   #header #title {
     display: table;
     margin-right: 5rem;
-    min-height: 250px;
+    min-height: 300px;
   }
   #header #title h1 {
     display: table-cell;
