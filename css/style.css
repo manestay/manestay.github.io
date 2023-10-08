@@ -615,10 +615,10 @@ body {
   display: inline-block;
   float: right;
   margin-right: 20px;
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   border-radius: 5px;
-  background-size: 300px 300px;
+  background-size: 250px 250px;
   background-repeat: no-repeat;
 }
 #header #nav {
@@ -669,7 +669,7 @@ body {
   #header #title {
     display: table;
     margin-right: 5rem;
-    min-height: 300px;
+    min-height: 250px;
   }
   #header #title h1 {
     display: table-cell;
@@ -693,7 +693,7 @@ body {
     text-align: center;
   }
   #header #nav ul.responsive li {
-    display: block;
+    display: inline-block;
   }
   #header #nav ul a[aria-label="Menu"] {
     display: inline-block;
